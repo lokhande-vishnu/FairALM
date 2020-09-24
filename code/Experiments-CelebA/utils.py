@@ -1,6 +1,10 @@
 '''
 File to log different fairness measures and evaluation metrics during training.
 
+We compute several fairness measures such as DDP, PPV and DEO. Please see Section 2 of the arxiv 
+paper for a primer on fairness.
+The measure DEO is same as 'fnr' listed in the code. 
+
 '''
 
 import torch
